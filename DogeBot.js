@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '916000530073'
+developerName= '🎗️Ronen'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -1452,42 +1452,6 @@ case 'abcde':
 reply('damn gay, really gay, wow, no one wants to play with him bro, its unclean because he is gay 🗿')
 break
 
-//══════════[ RENT DLL ]══════════//
-
-case 'rentbot':
-menu =
-`*${ucapanWaktu} @${senderr.split('@')[0]}*
-
-\`\`\`OPEN FOR RENT :\`\`\`
-➪ *1 Week :* _100INR_
-➪ *1 Month :* _200INR_
-➪ *Permanent :* _550INR_
-
-\`\`\`OPEN FOR STUDENTS :\`\`\`
-➪ *Ordinary student :* _500INR_
-➪ *Premium student :* _1000INR_
-
-\`\`\`OPEN FOR SC :\`\`\`
-➪ *Wanna buy this script? :* _Price: ₹250 (India)_
-
-For those who want to buy script or interested in any of the above
-Can request, if interested please contact the developer`
-DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'PAYMENT 💸' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
-break
-case 'bayar':
-case 'payment':
-
-gambar = fs.readFileSync('./media/doged.jpg')
-menunya = `*「 PAYMENT 」*
-
-• Note: Talk to the owner before payment
-• FamPay : _Please scan the qr above_`
-but = [
-{ buttonId: `${prefix}menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 },
-{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 }
-]
-sendButImage(from, menunya, `*_${tanggal} - ${time}_*`, gambar, but)
-break
 
 //══════════[ DOWNLOAD FEATURES ]══════════//
 /*Help case ?
@@ -2298,7 +2262,7 @@ if (!isNsfw) return reply(mess.only.nsfw)
                 case 'kiss':
                 case 'erok':
                 case 'smug':
-                case 'baka':
+                case 'baka': 
                 case 'solog':
                 case 'feetg':
                 case 'lewdk':
